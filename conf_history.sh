@@ -21,7 +21,7 @@ grep -q "$CABE_CONF" "$BASH_CONF" && { echo configuração já realizada no arqu
 BASH_CONF=$(find /root/ -iname .bashrc)
 cat >> "$BASH_CONF" << EOF
 #### $CABE_CONF ####
-HISTTIMEFORMAT="%d/%m/%y %T"
+HISTTIMEFORMAT="%d/%m/%y %T "
 HISTCONTROL=ignoreboth
 HISTFILESIZE=$LINE_CONF
 HISTSIZE=$LINE_CONF
