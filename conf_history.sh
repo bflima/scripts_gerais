@@ -26,3 +26,6 @@ HISTCONTROL=ignoreboth
 HISTFILESIZE=$LINE_CONF
 HISTSIZE=$LINE_CONF
 EOF
+
+# Gravar sessão
+history -w
