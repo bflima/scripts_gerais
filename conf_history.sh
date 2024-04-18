@@ -1,13 +1,15 @@
 #!/usr/bin/env/bash
+
+## INFO ##
 ## NOME.............: conf_history.sh
 ## VERSÃO...........: 1.0
-## DESCRIÇÃO........: Insere cabeçalhos em novos scripts ou em existentes.
-## DATA DA CRIAÇÃO..: 09/12/2018
-## ESCRITO POR......: Maurício G. Paiva
-## E-MAIL...........: mauriciodez@gmail.com
-## DISTRO...........: Debian GNU/Linux 8 (jessie)
+## DESCRIÇÃO........: Atualiza bash history com ajustes de tamanho, data e hora
+## DATA DA CRIAÇÃO..: 18/04/2024
+## ESCRITO POR......: Bruno Lima
+## E-MAIL...........: bruno@lc.tec.br
+## DISTRO...........: Debian GNU/Linux 12
 ## LICENÇA..........: GPLv3
-## PROJETO..........: https://github.com/mauriciodez/gera_cabecalho.git
+## Git Hub..........: https://github.com/bflima
 
 BASH_CONF=$(find /root/ -iname .bashrc)
 LINE_CONF='1500'
